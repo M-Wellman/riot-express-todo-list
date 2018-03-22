@@ -11,3 +11,5 @@ deploy:
   script: /bin/sh deploy.sh
   on:
     branch: master
+script:
+    test: npm test
